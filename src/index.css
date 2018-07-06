@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.lineThrough{
+  text-decoration: line-through;
+}
+.selected{
+  background: grey;
+}
+ul{
+  display: inline-flex;
+  align-items: center;
+  list-style: none;
+}
+li{
+  padding: 10px;
+  cursor: pointer;
+}
+div{
+  margin: 20px 20px;
+}
+button{
+  border-radius:0px ;
+  height: 30px;
+  width: 92px;
+  color: white;
+  background: #2038e6;
+}
